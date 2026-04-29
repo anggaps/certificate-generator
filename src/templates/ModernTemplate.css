@@ -1,0 +1,187 @@
+.template.modern {
+  background: #fff;
+  position: relative;
+  height: 100%;
+}
+
+.modern-accent-top,
+.modern-accent-bottom {
+  position: absolute;
+  width: 100%;
+  height: 8px;
+  background: var(--primary-color);
+}
+
+.modern-accent-top {
+  top: 0;
+}
+
+.modern-accent-bottom {
+  bottom: 0;
+}
+
+.modern .cert-content {
+  padding: 50px 60px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.modern-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.modern-logo {
+  font-size: 2rem;
+}
+
+.modern .custom-logo {
+  max-height: 50px;
+  max-width: 100px;
+  object-fit: contain;
+}
+
+.modern-badge {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+  padding: 6px 16px;
+  background: var(--primary-color);
+  color: white;
+  border-radius: 20px;
+}
+
+.modern-body {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modern-prefix {
+  font-size: 0.9rem;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 16px;
+}
+
+.modern-name {
+  font-family: var(--name-font);
+  font-size: var(--name-size);
+  color: var(--primary-color);
+  margin: 10px 0;
+}
+
+.modern-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px auto;
+  width: 300px;
+}
+
+.modern-divider span:first-child,
+.modern-divider span:last-child {
+  flex: 1;
+  height: 1px;
+  background: var(--secondary-color);
+}
+
+.modern-divider span:nth-child(2) {
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+}
+
+.modern-description {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.7;
+  max-width: 480px;
+  margin: 0 auto 12px;
+}
+
+.modern-event {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.modern-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-top: 30px;
+  padding: 0 20px;
+}
+
+.modern-signature {
+  text-align: center;
+  flex: 1;
+}
+
+.modern-line {
+  width: 130px;
+  height: 1px;
+  background: #333;
+  margin: 0 auto 8px;
+}
+
+.modern-sign-name {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.modern-sign-title {
+  font-size: 0.75rem;
+  color: #888;
+  margin-top: 2px;
+}
+
+.modern-seal {
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modern-seal-inner {
+  width: 55px;
+  height: 55px;
+  border: 2px solid var(--secondary-color);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(214, 158, 46, 0.05);
+}
+
+.modern-seal-inner span {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+}
+
+.modern-seal-inner small {
+  font-size: 0.5rem;
+  letter-spacing: 1px;
+  color: var(--secondary-color);
+}
+
+.modern-date {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 0.8rem;
+  color: #888;
+  letter-spacing: 1px;
+}
